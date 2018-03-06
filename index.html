@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Calvin's Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="./style/reset.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="./style/style.css">
+</head>
+<body>
+	<header>
+		<video autoplay muted loop id="about">
+  			<source src="./images/code.mov" type="video/mp4">
+  		Your browser does not support HTML5 video.
+		</video>
+			<!--Navigation-->
+			<nav class>
+				<h1>Calvin Le</h1>
+				<ul>
+					<li><a href="#contact">Contact</a></li>
+					<li><a href="#project">Projects</a></li>
+					<li><a href="#skill">Skills</a></li>
+					<li><a href="#about">About Me</a></li>
+				</ul>
+			</nav>
+	</header>
+			<!--About Me-->
+	<main>
+		<div class="container flex">
+			<h2 class="titledec">About Me</h2>
+				<p>Born and raised in the New York City. Graduated from Queens College with a B.A, major in economics and a minor in psychology.  When I was young I created a website from a free web hosting services and found it very fascinating.  Ever since then, I always had it in the back of my mind but never pursued it. After graduating from General Assembly front end web development program in 2018. I learned a lot as well as gaining confidence in my ability feeling that I can take on more projects to expand my knowledge and mastering my skills.</p>
+		</div>
+	</main>
+		<div class="container center" id="skill">
+			<!--Skills-->
+			<div class="skills">
+				<h2 class="titledec">Skills</h2>
+				<section class="html box">
+					<img class="icon" src="./images/icon/html.png">
+					<p class="space">Understanding and the organization of hard code is a priority, making it simple and straightforward for others to read, debug and follow</p></section>
+				<section class="css box">
+					<img class="icon" src="./images/icon/css.png">	
+					<p class="space">Believes that it is vital to keep css code consistent and readable so it would be easier to maintain and manageable.</p></section>
+				<section class="javascript box">
+					<img class="icon" src="./images/icon/js.png">
+					<p class="space">Utilizing javascript to manipulate the DOM adding event listeners, programming the behavior of the webpage.
+					</p>
+				</section>
+					<section class="jquery box">
+						<img class="icon" src="./images/icon/jquery.png">
+						<p class="space">Using jQuery to add effects, making the website interactive and improve user expierience.</p>
+					</section>
+					<section class="git box">
+						<img class="icon" src="./images/icon/git.png">
+						<p>Knowledge of using GitHub via command line/Github desktop. Push/Pull commit to master, etc.</p>
+					</section>
+					<section class="responsive box">
+						<img class="icon" src="./images/icon/responsive.png">
+						<p>Apply media queries to web sites to achieve a responsive layout, implementing media queries to change layout on mobile devices</p>
+					</section>
+				</div>	
+		</div>
+		
+			<!--Projects-->
+	<div class="projects clearfix">
+		<div class="container center" id="project">
+			<h2 class="titledec">Projects</h2>
+			<p> Projects that we worked on in the GA class</p>
+			<section>
+				<img class="img" src="./images/startup.png" alt="picture">
+			</section>
+			<section>
+				<img class="img" src="./images/Relaxr.png" alt="picture">
+			</section>
+			<section>
+				<img class="img" src="./images/ecardly.png" alt="picture">
+			</section>
+			<section>
+				<img class="img" src="./images/weather.png" alt="picture">
+			</section>
+			<section>
+				<img class="img" src="./images/blog.png" alt="picture">
+			</section>
+		</div>
+	</div>
+	
+		<!--Contact-->
+	<div class="contact center clearfix">
+		<div class="container" id="contact">
+			<h2 class="titledec">Contact</h2>
+			<p>Care for a little chat?</p>
+			<form>
+				<p class="name">
+					<label for="name">Name</label>
+					<input type="text" name="name" id="name" placeholder="name" />
+				</p>
+				<p class="Email">
+					<label for="name">Email</label>
+					<input type="text" name="email" id="email" placeholder="email" />
+				</p>
+				<p class="text">
+					<textarea name="text" placeholder="Write something here..."></textarea>
+				</p>
+				<p class="submit">
+					<input type="submit" value="send">
+				</p>
+			</form>
+		</div>
+			<img class="coffee" src="./images/coffee.jpg" alt="picture">
+	</div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="./main.js"></script>
+</body>
+</html>
